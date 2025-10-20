@@ -1,0 +1,17 @@
+{
+  "name": "telegram-password-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for generating secure passwords",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
